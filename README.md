@@ -47,17 +47,18 @@ As shown in the dataset, we are trying to look at various factors that can show 
 ## Analysis Findings
 1. Approximately 15% of the Framingham Dataset has the incidence of Ten Year CHD (Coronary Heart Disease)
 
-2. 3% of individuals reported using the Blood Pressure Medications, among with 1% have the incidence of CHD
+### BPMeds - Age - CHD Analysis
+1. 3% of individuals reported using the Blood Pressure Medications, among with 1% have the incidence of CHD
 
-3. With a small p-value (e.g., 3.10e-08) in BPMeds and Ten Year CHD, we reject the null hypothesis. Meaning there is significant association between the bpmeds and TenYearCHD variables, and individuals taking bpmeds may have a different risk of developing CHD within ten years compared to those not taking medication.
+2. With a small p-value (e.g., 3.10e-08) in BPMeds and Ten Year CHD, we reject the null hypothesis. Meaning there is significant association between the bpmeds and TenYearCHD variables, and individuals taking bpmeds may have a different risk of developing CHD within ten years compared to those not taking medication.
 
-4. High CHi Square (30.65) shows the a stronger association between the variables (BPMeds and Ten Year CHD)
+3. High CHi Square (30.65) shows the a stronger association between the variables (BPMeds and Ten Year CHD)
 
-5. The majority of individuals in this dataset fall within the age range of 30 to 70 years.
+4. The majority of individuals in this dataset fall within the age range of 30 to 70 years.
 
-6. The distribution of age in the dataset is relatively normal, mean age is approximately 49 years
+5. The distribution of age in the dataset is relatively normal, mean age is approximately 49 years
 
-7. The p-value on a T-test is less than 0.05, it means that there is statistically significant difference between the mean ages of the two populations, and the age distribution of individuals on blood pressure medication differs significantly from those not on medication.
+6. The p-value on a T-test is less than 0.05, it means that there is statistically significant difference between the mean ages of the two populations, and the age distribution of individuals on blood pressure medication differs significantly from those not on medication.
 
 ## Recommendations
 1. Continued monitoring of cardiovascular risk factors, especially in older age groups, is essential for early detection and prevention of coronary heart disease.
