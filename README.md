@@ -46,6 +46,7 @@ As shown in the dataset, we are trying to look at various factors that can show 
 
 ## Analysis Findings
 1. Approximately 15% of the Framingham Dataset has the incidence of Ten Year CHD (Coronary Heart Disease)
+    <img src="Images/BPMeds_CHD.png"/>
 
 ### BPMeds - Age - CHD Analysis
 1. 3% of individuals reported using the Blood Pressure Medications, among with 1% have the incidence of CHD
@@ -59,6 +60,8 @@ As shown in the dataset, we are trying to look at various factors that can show 
 5. The distribution of age in the dataset is relatively normal, mean age is approximately 49 years
 
 6. The p-value on a T-test is less than 0.05, it means that there is statistically significant difference between the mean ages of the two populations, and the age distribution of individuals on blood pressure medication differs significantly from those not on medication.
+
+    <img src="Images/BPMeds_Counts_Age_CHD.png"/>
 
 ## Recommendations
 1. Continued monitoring of cardiovascular risk factors, especially in older age groups, is essential for early detection and prevention of coronary heart disease.
