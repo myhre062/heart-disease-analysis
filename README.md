@@ -24,6 +24,8 @@ The dataset is in the csv format and consists of the following key variables:
     currentSmoker: Indicates the Smoking Status (1 = Yes, 0 = No)
     BPMeds: Indicates the usage of Blood Pressure Medications (1 = yes, 0 = No)
     Diabetes: Indicates whether the individual is diabetic or not (1 = Yes, 0 = No)
+    Prevalent Stroke: Indicates the Stroke status (1 = Yes, 0 = No)
+    Prevalent Hyp: Indicates the Hypotention status (1 = Yes, 0 = No)
     TenYearCHD: Indicates whether the individual developed CHD within ten years (0 = No, 1 = Yes)
 
 ## Research Questions
@@ -63,6 +65,25 @@ As shown in the dataset, we are trying to look at various factors that can show 
 
     <img src="Images/BPMeds_Counts_Age_CHD.png"/>
 
+## Age - Prevalent Stroke - Prevalent Hyp - TenYearCHD analysis
+1. Age is not strongly correlated with CHD
+    * Age is negatively correlated with amount of cigarrets per day
+    * As age increases, the amount of cigarrets consumed per day stays relatively consistent; Meanwhile the amount of participants having heart disease does not show a siginificant decrease as the amounts of cigarrets per day being decreased.
+    * This could indicate a lack of correlation between cigarrets per day and the risk of having heart disease in 10 years.
+
+2. Risk of having chronic heart disease in ten years is positively correlated with the a person having prevalent stroke
+    * There is a 0.23 correlation between these two elements
+    * When a person stroke is present, there's a higher risk of chronic heart disease for this participant.
+
+3. Stroke & Hyp vs TenYear CHD
+    * There's a likelyhood of TenYear CHD increasing as prevalence of Stroke increases. 
+    * There is a likelihood of TenYear CHD increasing as prevalence of hypotension increases.
+
+4. Age vs Prevalent Stroke: 
+    * As age increases from 31 - 60 years old, the percentage of stroke increases. 
+    * While within age group 61 - 70 years old, the percentage of Stroke decreases significantly. 
+
+
 ## Recommendations
 1. Continued monitoring of cardiovascular risk factors, especially in older age groups, is essential for early detection and prevention of coronary heart disease.
 
@@ -71,6 +92,7 @@ As shown in the dataset, we are trying to look at various factors that can show 
 ## Limitations
 1. The dataset may not capture all relevant variables contributing to coronary heart disease risk.
 2. It's common knowledge that people with diabetes are twice as likely to have heart disease. (Check out [Diabetes and Your Heart](https://www.cdc.gov/diabetes/library/features/diabetes-and-heart.html#:~:text=If%20you%20have%20diabetes%2C%20you,are%20to%20have%20heart%20disease.) for more info.) Since our population for diabetes is so low we would have liked a higher population of diabetics in this data set to have more confidence in our analysis.
+3. Due to limited age selected from our data population, the analysis is unable to examine causes for the decrease of Stroke, Hyp within the age range of 61 -70 compared to 51-60.
 
 ## Conclusion
 
