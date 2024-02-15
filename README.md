@@ -91,12 +91,20 @@ As shown in the dataset, we are trying to look at various factors that can show 
 
 ## Limitations
 1. The dataset may not capture all relevant variables contributing to coronary heart disease risk.
-2. It's common knowledge that people with diabetes are twice as likely to have heart disease. (Check out [Diabetes and Your Heart](https://www.cdc.gov/diabetes/library/features/diabetes-and-heart.html#:~:text=If%20you%20have%20diabetes%2C%20you,are%20to%20have%20heart%20disease.) for more info.) Since our population for diabetes is so low we would have liked a higher population of diabetics in this data set to have more confidence in our analysis.
-3. Due to limited age selected from our data population, the analysis is unable to examine causes for the decrease of Stroke, Hyp within the age range of 61 -70 compared to 51-60.
+2. Dataset contains an extensive amount of binary data, which could be difficult to visualize
+3. There's a lack of data representing the good cholesterol vs bad cholesterol for participant population
+4. It's common knowledge that people with diabetes are twice as likely to have heart disease. (Check out [Diabetes and Your Heart](https://www.cdc.gov/diabetes/library/features/diabetes-and-heart.html#:~:text=If%20you%20have%20diabetes%2C%20you,are%20to%20have%20heart%20disease.) for more info.) Since our population for diabetes is so low we would have liked a higher population of diabetics in this data set to have more confidence in our analysis.
+5. Due to limited age selected from our data population, the analysis is unable to examine causes for the decrease of Stroke, Hyp within the age range of 61 -70 compared to 51-60.
+6. Given the limited age range in data population, we were unable to analyze cause of drop for Stroke, Hyp decreases in age 61 -70 compared to 51-60. 
+7. There’s a combination of factors leading to the increased ten year risk or outcome of CHD. The selected population lacks sufficient statistical support to conclude a single variable will result in TenYearCHD.
 
 ## Conclusion
 
 This report provides an overview of the analysis conducted on the Framingham Ten Year Coronary Heart Disease dataset, highlighting key findings, conclusions, recommendations, and limitations. Additional analysis and in-depth investigations can further enhance our understanding of cardiovascular risk factors and interventions.
+
+Summary: 
+* With an increasing focus on health and prevention of cardiovascular diseases, our findings support the hypothesis that age of an individual, and being impacted by blood pressure can significantly increase the risk of an individual's risk of having chronic heart disease over time.
+* Meanwhile, our analysis revealed the tip of the iceberg of the complexity for understanding the various root causes for the chronic heart disease. Our findings highlighted the challenge of  comprehending these controllable risks and the increasing need of research to enhance the prevention strategies for  chronic heart disease
 
 ## Sources and References
 
@@ -107,5 +115,7 @@ This report provides an overview of the analysis conducted on the Framingham Ten
    a. [Chi-Square-Test-In-Python](https://medium.com/swlh/how-to-run-chi-square-test-in-python-4e9f5d10249d)
 
     b. [Chi-square-python](https://pythonfordatascienceorg.wordpress.com/chi-square-python/)
+
+3. Referenced Heatmap and Seaborn libarry 
 
 
