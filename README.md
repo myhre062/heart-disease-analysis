@@ -84,6 +84,9 @@ As shown in the dataset, we are trying to look at various factors that can show 
     * As age increases from 31 - 60 years old, the percentage of stroke increases. 
     * While within age group 61 - 70 years old, the percentage of Stroke decreases significantly. 
 
+## Diabetes and Heart Disease
+
+1. The correlation between diabetes and the risk of developing coronary heart disease (CHD) over ten years reveals a significant likelihood of having CHD. Individuals with diabetes exhibit a higher rate of CHD, with 36.7% of diabetic patients experiencing CHD, compared to only 14.62% of non-diabetic individuals. Showing people with Diabetes are twice as likely to develop CHD. Diabetes is a significant risk factor for the development of CHD. These findings let us argue that diabetic individuals need to be more thorough with their health to prevent heart disease.
 
 ## Recommendations
 1. Continued monitoring of cardiovascular risk factors, especially in older age groups, is essential for early detection and prevention of coronary heart disease.
