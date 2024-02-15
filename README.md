@@ -43,6 +43,7 @@ As shown in the dataset, we are trying to look at various factors that can show 
     |___ Images
     |___ Resources
         |___ framingham.csv
+    |___ Heart-Disease-Analysis.pptx
     |___ heart-disease-data-analysis.ipynb
     |___ README.md
 
