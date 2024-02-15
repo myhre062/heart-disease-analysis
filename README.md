@@ -88,6 +88,14 @@ As shown in the dataset, we are trying to look at various factors that can show 
 
 1. The correlation between diabetes and the risk of developing coronary heart disease (CHD) over ten years reveals a significant likelihood of having CHD. Individuals with diabetes exhibit a higher rate of CHD, with 36.7% of diabetic patients experiencing CHD, compared to only 14.62% of non-diabetic individuals. Showing people with Diabetes are twice as likely to develop CHD. Diabetes is a significant risk factor for the development of CHD. These findings let us argue that diabetic individuals need to be more thorough with their health to prevent heart disease.
 
+## Cigaretteette's and Heart Disease
+
+1. Gender Differences in Smoking Habits: Males are significantly more likely to be smokers compared to females, we know this from our T-test. The reasons for this discrepancy could be influenced by various factors such as lifestyle, culture, or socioeconomic conditions.
+
+2. Prevalence of Heavy Smoking: A significant portion of the smoker population consists of heavy smokers, with those smoking "21-30 cigs per day" and "30+ cigs per day" making up 38.53% and 19.26% respectively. This indicates that a majority of smokers consume cigarettes at a high rate, which poses substantial health risks.
+
+3. Older Generation and Smoking Risks: The average age of the smoking population is 47.73 years, pointing to an older demographic. This age factor, combined with the prevalence of heavy smoking, supports the hypothesis that increased cigarette consumption correlates with deteriorating health conditions, especially given historical misconceptions about the health impacts of smoking.
+
 ## Recommendations
 1. Continued monitoring of cardiovascular risk factors, especially in older age groups, is essential for early detection and prevention of coronary heart disease.
 
